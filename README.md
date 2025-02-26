@@ -1,40 +1,66 @@
 # 🚀 DevSecOps Pipeline Example
-Este repositório demonstra um pipeline CI/CD completo usando GitHub Actions , Docker , e uma aplicação com frontend em React , backend em Node.js (Express) e banco de dados PostgreSQL . O objetivo é mostrar como integrar práticas de DevSecOps, SRE e Quality Assurance em um fluxo de trabalho moderno.
+Este repositório demonstra um pipeline CI/CD completo usando GitHub Actions , Docker , e uma aplicação com frontend em React , backend em Node.js (Express) e banco de dados PostgreSQL.</br>O objetivo é mostrar como integrar práticas de DevSecOps, SRE e Quality Assurance em um fluxo de trabalho moderno.
 
 ## 📋 Índice
-Visão Geral
-Tecnologias Utilizadas
-Estrutura do Projeto
-Pré-requisitos
-Como Executar Localmente
-Pipeline CI/CD
-Contribuição
-Licença
+
+1. [Visão Geral](#visão-geral)
+2. [Captura de telas](#captura-de-telas)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Estrutura do Projeto](#estrutura-do-projeto)
+5. [Pré-requisitos](#pré-requisitos)
+6. [Como Executar Localmente](#como-executar-localmente)
+7. [Pipeline CI/CD](#pipeline-cicd)
+8. [Contribuição](#contribuição)
+9. [Licença](#licença)
 
 ## 🌟 Visão Geral
 Este projeto simula uma aplicação web simples com:
 
-Frontend : Uma interface React que exibe uma mensagem de boas-vindas.
-Backend : Um servidor Node.js com Express que fornece uma API simples.
-Banco de Dados : PostgreSQL para armazenamento de dados (opcional).
+Frontend : Uma interface React que exibe uma mensagem de boas-vindas.</br>
+Backend : Um servidor Node.js com Express que fornece uma API simples.</br>
+Banco de Dados : PostgreSQL para armazenamento de dados (opcional).</br>
 O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub Actions e Docker .
 
+## Capturas de Tela
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/localhost3001.png" alt="Tela Localhost 3001" width="160">
+        <br><b>Tela Localhost 3001</b>
+      </td>
+      <td align="center">
+        <img src="assets/localhost5000.png" alt="Tela Localhost 5000" width="160">
+        <br><b>Tela Localhost 5000</b>
+      </td>      
+    </tr>
+  </table>
+</div>
+
+
 ## 💻 Tecnologias Utilizadas
-Frontend :
-React
-Docker
-Backend :
-Node.js
-Express
-Docker
-Banco de Dados :
-PostgreSQL
-Ferramentas :
-Docker Compose
-GitHub Actions
-NPM
+
+**Frontend**:
+* React
+* Docker
+
+**Backend**:
+* Node.js
+* Express
+* Docker
+
+**Banco de Dados**:
+* PostgreSQL
+
+**Ferramentas**:
+* Docker Compose
+* GitHub Actions
+* NPM
+
 
 ## devsecops-pipeline/
+```
 ├── frontend/          # Aplicação React (frontend)
 │   ├── public/
 │   ├── src/
@@ -49,6 +75,7 @@ NPM
 │   └── workflows/
 │       └── pipeline.yml
 └── README.md          # Este arquivo
+```
 
 
 ## ▶️ Como Executar Localmente
@@ -91,6 +118,6 @@ Abra um Pull Request.
 Este projeto está licenciado sob a MIT License . Veja o arquivo LICENSE para mais detalhes.
 
 ## 🙌 Agradecimentos
-Agradeço ao @fabiano-da-silva-carneiro do curso DevSecOps por inspirar este projeto.
+Agradeço ao @FabianoCarneiro do curso DevSecOps por inspirar este projeto.
 
 E agradeço a você por conferir este repositório! 😊
