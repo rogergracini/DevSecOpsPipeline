@@ -9,9 +9,9 @@
     "@testing-library/user-event": "^13.5.0",
     "date": "^2.0.6",
     "frontend": "file:",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^3.0.1",
+    "react": "^18.x",
+    "react-dom": "^18.x",
+    "react-scripts": "^5.x",
     "to": "^0.2.9",
     "up": "^1.0.2",
     "web-vitals": "^2.1.4"

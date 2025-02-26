@@ -3,17 +3,17 @@ Este repositório demonstra um pipeline CI/CD completo usando GitHub Actions , D
 
 ## 📋 Índice
 
-1. [Visão Geral](#visão-geral)
+1. [Visão Geral](#visao-geral)
 2. [Captura de telas](#captura-de-telas)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 4. [Estrutura do Projeto](#estrutura-do-projeto)
-5. [Pré-requisitos](#pré-requisitos)
+5. [Pré-requisitos](#pre-requisitos)
 6. [Como Executar Localmente](#como-executar-localmente)
 7. [Pipeline CI/CD](#pipeline-cicd)
-8. [Contribuição](#contribuição)
-9. [Licença](#licença)
+8. [Contribuição](#contribuicao)
+9. [Licença](#licenca)
 
-## 🌟 Visão Geral
+## 🌟 Visão Geral<a id="visao-geral"></a>
 Este projeto simula uma aplicação web simples com:
 
 Frontend : Uma interface React que exibe uma mensagem de boas-vindas.</br>
@@ -21,7 +21,7 @@ Backend : Um servidor Node.js com Express que fornece uma API simples.</br>
 Banco de Dados : PostgreSQL para armazenamento de dados (opcional).</br>
 O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub Actions e Docker .
 
-## Capturas de Tela
+## Capturas de Tela<a id="captura-de-telas"></a>
 
 <div align="center">
   <table>
@@ -39,7 +39,7 @@ O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub
 </div>
 
 
-## 💻 Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas<a id="tecnologias-utilizadas"></a>
 
 **Frontend**:
 * React
@@ -58,9 +58,9 @@ O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub
 * GitHub Actions
 * NPM
 
-
-## devsecops-pipeline/
+## 📂 Estrutura do Projeto<a id="estrutura-do-projeto"></a>
 ```
+devsecops-pipeline/
 ├── frontend/          # Aplicação React (frontend)
 │   ├── public/
 │   ├── src/
@@ -77,8 +77,15 @@ O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub
 └── README.md          # Este arquivo
 ```
 
+## ⚙️ Pré-requisitos<a id="pre-requisitos"></a>
+Certifique-se de ter as seguintes ferramentas instaladas:
 
-## ▶️ Como Executar Localmente
+* Node.js (v16 ou superior): [Download](https://nodejs.org/)
+* Docker Desktop: [Download](https://www.docker.com/products/docker-desktop/)
+* Git: [Download](https://git-scm.com/downloads)
+* VSCode (recomendado): [Download](https://code.visualstudio.com/)
+
+## ▶️ Como Executar Localmente<a id="como-executar-localmente"></a>
 1. Clone o Repositório
 git clone https://github.com/seu-usuario/devsecops-pipeline.git
 cd devsecops-pipeline
@@ -93,7 +100,7 @@ Backend API : http://localhost:5000/api
 4. Pare os Serviços
 docker-compose down
 
-## 🔄 Pipeline CI/CD
+## 🔄 Pipeline CI/CD<a id="pipeline-cicd"></a>
 O pipeline automatiza os seguintes passos:
 
 Build :
@@ -104,7 +111,7 @@ Deploy :
 Inicia os serviços com Docker Compose.
 Arquivo: .github/workflows/pipeline.yml
 
-## 🤝 Contribuição
+## 👥 Contribuição<a id="contribuicao"></a>
 Contribuições são bem-vindas! Para contribuir:
 
 Faça um fork deste repositório.
@@ -114,7 +121,7 @@ Envie para o repositório remoto (git push origin feature/nova-feature).
 Abra um Pull Request.
 
 
-## 📜 Licença
+## 📜 Licença<a id="licenca"></a>
 Este projeto está licenciado sob a MIT License . Veja o arquivo LICENSE para mais detalhes.
 
 ## 🙌 Agradecimentos
