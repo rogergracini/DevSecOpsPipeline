@@ -1,7 +1,7 @@
-## 🚀 DevSecOps Pipeline Example
+# 🚀 DevSecOps Pipeline Example
 Este repositório demonstra um pipeline CI/CD completo usando GitHub Actions , Docker , e uma aplicação com frontend em React , backend em Node.js (Express) e banco de dados PostgreSQL . O objetivo é mostrar como integrar práticas de DevSecOps, SRE e Quality Assurance em um fluxo de trabalho moderno.
 
-# 📋 Índice
+## 📋 Índice
 Visão Geral
 Tecnologias Utilizadas
 Estrutura do Projeto
@@ -11,7 +11,7 @@ Pipeline CI/CD
 Contribuição
 Licença
 
-# 🌟 Visão Geral
+## 🌟 Visão Geral
 Este projeto simula uma aplicação web simples com:
 
 Frontend : Uma interface React que exibe uma mensagem de boas-vindas.
@@ -19,7 +19,7 @@ Backend : Um servidor Node.js com Express que fornece uma API simples.
 Banco de Dados : PostgreSQL para armazenamento de dados (opcional).
 O pipeline CI/CD automatiza os processos de build , teste e deploy usando GitHub Actions e Docker .
 
-# 💻 Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 Frontend :
 React
 Docker
@@ -34,7 +34,7 @@ Docker Compose
 GitHub Actions
 NPM
 
-# devsecops-pipeline/
+## devsecops-pipeline/
 ├── frontend/          # Aplicação React (frontend)
 │   ├── public/
 │   ├── src/
@@ -51,7 +51,7 @@ NPM
 └── README.md          # Este arquivo
 
 
-# ▶️ Como Executar Localmente
+## ▶️ Como Executar Localmente
 1. Clone o Repositório
 git clone https://github.com/seu-usuario/devsecops-pipeline.git
 cd devsecops-pipeline
@@ -66,7 +66,7 @@ Backend API : http://localhost:5000/api
 4. Pare os Serviços
 docker-compose down
 
-# 🔄 Pipeline CI/CD
+## 🔄 Pipeline CI/CD
 O pipeline automatiza os seguintes passos:
 
 Build :
@@ -77,7 +77,7 @@ Deploy :
 Inicia os serviços com Docker Compose.
 Arquivo: .github/workflows/pipeline.yml
 
-# 🤝 Contribuição
+## 🤝 Contribuição
 Contribuições são bem-vindas! Para contribuir:
 
 Faça um fork deste repositório.
@@ -87,10 +87,10 @@ Envie para o repositório remoto (git push origin feature/nova-feature).
 Abra um Pull Request.
 
 
-# 📜 Licença
+## 📜 Licença
 Este projeto está licenciado sob a MIT License . Veja o arquivo LICENSE para mais detalhes.
 
-# 🙌 Agradecimentos
+## 🙌 Agradecimentos
 Agradeço ao @fabiano-da-silva-carneiro do curso DevSecOps por inspirar este projeto.
 
 E agradeço a você por conferir este repositório! 😊
